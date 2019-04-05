@@ -66,4 +66,7 @@ imprime los ultimos comandos usados de la consola en un archivo eliminando los n
 ```
  history 10 | awk '{$1 = ""; print}' >>file2
 ```
+para insertar en sublime text con una nueva linea ,\n, tabulador \t
+
+
 
