@@ -69,4 +69,15 @@ imprime los ultimos comandos usados de la consola en un archivo eliminando los n
 para insertar en sublime text con una nueva linea ,\n, tabulador \t
 
 
-
+### Instalar node,phantomjs,geckodriver:
+```
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+sudo apt install nodejs
+sudo npm i -g install phantomjs-prebuilt --unsafe-perm
+```
+descargar geckodriver actualizado, descargar y descomprimir:
+```
+chmod +x geckodriver
+export PATH=$PATH:/path.../geckodriver y agregarlo como variable al driver
+o guardarlo en /usr/bin/
+```
